@@ -161,7 +161,7 @@ chmod +x /root/.acme.sh/acme.sh
 ~/.acme.sh/acme.sh --installcert -d $domain --fullchainpath /etc/xray/xray.crt --keypath /etc/xray/xray.key --ecc
 echo -e "${OKEY} Your Domain : $domain"
 sleep 2
-wget -qO bahan.zip https://www.dropbox.com/s/xd3axnb4jqgpn8p/bahan.zip?dl=1 && unzip bahan.zip
+wget -qO bahan.zip https://www.dropbox.com/s/94dvcfs9ttlu1t7/bahan.zip?dl=1 && unzip bahan.zip
 chmod +x *
 chmod +x /root/menu/*
 ./alat.sh
